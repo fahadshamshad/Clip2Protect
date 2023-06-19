@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/badge/CVPR-Paper-blue.svg">
   </a> 
   
-  <a href="https://fahadshamshad.github.io/clip2protect/" target='_blank'>
+  <a href="https://fahadshamshad.github.io/Clip2Protect/" target='_blank'>
     <img src=https://img.shields.io/badge/Project-Website-87CEEB">
   </a>
 

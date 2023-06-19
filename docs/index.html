@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="CLIP2Protect">
+  <meta name="keywords" content="Facial Privacy, Face Recognition, StyleGAN">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CLIP2Protect</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+  <style>
+  @import url('https://fonts.cdnfonts.com/css/menlo');
+  </style>
+<body>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+         <h1 class="title is-2 publication-title"><span style="color: seagreen;">CLIP2Protect</span><span style="color: seagreen;">
+           <i class="fas fa-shield-alt"></i>
+           </span>: Protecting Facial Privacy using Text-Guided Makeup via Adversarial Latent Search</h1>
+        <div class="is-size-5 publication-authors">
+           <span class="author-block">
+             <a href="https://fahadshamshad.github.io/">Fahad Shamshad</a></sup>,
+           </span>
+           <span class="author-block">
+             <a href="https://muzammal-naseer.netlify.app/">Muzammal Naseer</a></sup>,
+           </span>
+           <span class="author-block">
+             <a href="https://scholar.google.com/citations?user=2qx0RnEAAAAJ&hl=en">Karthik Nandakumar</a></sup>
+           </span>
+        </div>
+
+        <div class="is-size-5 publication-authors">
+          <span class="author-block"></sup><strong>MBZUAI, UAE.</strong></span>
+        </div>
+          
+        <div class="is-size-5 publication-authors">
+          <span class="author-block"><strong style="font-size: 1.5em;">[</strong><strong style="font-family: 'Google Sans', sans-serif; font-weight: bold; font-size: 1.4em; color: slateblue;">Accepted in CVPR 2023</strong><strong style="font-size: 1.5em;">]</strong></span>
+        </div>
+
+        <div class="column has-text-centered">
+          <div class="publication-links">
+            <!-- PDF Link. -->
+            <span class="link-block">
+              <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Shamshad_CLIP2Protect_Protecting_Facial_Privacy_Using_Text-Guided_Makeup_via_Adversarial_Latent_CVPR_2023_paper.html"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>Paper</span>
+              </a>
+            </span>
+
+            <!-- Code Link. -->
+            <span class="link-block">
+              <a href="https://github.com/fahadshamshad/Clip2Protect"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fab fa-github"></i>
+                </span>
+                <span>Code [Coming soon]</span>
+                </a>
+            </span>
+
+            
+            <!-- Video Link. -->
+            <span class="link-block">
+              <a href="https://www.youtube.com/watch?v=CUSVyvM_-6o"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fab fa-youtube"></i>
+                </span>
+                <span>Video</span>
+              </a>
+            </span>
+
+            
+            <!-- PDF Link. -->
+            <span class="link-block">
+              <a href="https://openaccess.thecvf.com/content/CVPR2023/supplemental/Shamshad_CLIP2Protect_Protecting_Facial_CVPR_2023_supplemental.pdf"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>Supplementary</span>
+              </a>
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <video autoplay controls muted loop height="100%">
+            <source src="static/images/2122_mp4.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <video autoplay controls muted loop height="100%">
+            <source src="static/images/vid_sun.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <video autoplay controls muted loop height="100%">
+            <source src="static/images/gif_1_.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <video autoplay controls muted loop height="100%">
+            <source src="static/images/2122_mp4.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item">
+          <video autoplay controls muted loop height="100%">
+            <source src="static/images/vid_sun.mp4"
+                    type="video/mp4">
+          </video>
+        </div>  
+        <div class="item">
+          <video autoplay controls muted loop height="100%">
+            <source src="static/images/gif_1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>  
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="subtitle has-text-justified">
+          <p>
+           The success of deep learning based face recognition systems has given rise to serious privacy concerns due to their ability to enable unauthorized tracking of users in the digital world. Existing methods for enhancing 
+            privacy fail to generate naturalistic' images that can protect facial privacy without compromising user experience. We propose a novel two-step approach for facial privacy protection that relies on finding 
+            adversarial latent codes in the low-dimensional manifold of a pretrained generative model. The first step inverts the given face image into the latent space and finetunes the generative model to achieve an 
+            accurate reconstruction of the given image from its latent code. This step produces a good initialization, aiding the generation of high-quality faces that resemble the given identity. Subsequently, user 
+            defined makeup text prompts and identity-preserving regularization are used to guide the search for adversarial codes in the latent space. Extensive experiments demonstrate that faces generated by our approach 
+            have stronger black-box transferability with an absolute gain of 12.06% over the state-of-the-art facial privacy protection approach under the face verification task. Finally, we demonstrate the effectiveness 
+            of the proposed approach for commercial face recognition systems.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+
+<section class="hero-body">
+  <div class="container is-max-desktop">
+     <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+    <h2 class="title is-3">Pipeline</h2>
+      <h3 class="subtitle has-text-justified">
+        <strong><span style="color: seagreen;">CLIP2Protect</span></strong> comprises two stages. <strong>Firstly</strong>, the latent code initialization stage reconstructs the given face image in the latent space by 
+        fine-tuning the generative model. <strong>Secondly</strong>, the text-guided adversarial optimization stage utilizes user-defined makeup text prompts and identity-preserving regularization
+        to guide the search for adversarial codes within the latent space to effectively protect the privacy.
+      </h3>
+      <img src="static/images/pipeline_color.jpg" alt="CLIP2Protect pipeline">
+
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+        <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/CUSVyvM_-6o"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{shamshad2023clip2protect,
+  title={CLIP2Protect: Protecting Facial Privacy Using Text-Guided Makeup via Adversarial Latent Search},
+  author={Shamshad, Fahad and Naseer, Muzammal and Nandakumar, Karthik},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={20595--20605},
+  year={2023}
+}</code></pre>
+  </div>
+</section>
+  
+
+
+<footer class="footer">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            Website adapted from the following <a href="https://github.com/nerfies/nerfies.github.io">source code</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

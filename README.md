@@ -47,9 +47,8 @@
   <img src="imgs/motivationslides.jpg" align="center" width="100%">
 
 ## Limitation of existing works :warning: 
- - Recent noise-constrained adversarial attacks to conceal user identity results in artefacts. 
+ - Recent noise-based facial privacy protection approaches result in artefacts. 
  - Patch-based privacy approaches provide low privacy protection and their large visible pattern compromises naturalness.
- - The closely related AMT-GAN (CVPR 2022) needs a reference image for makeup style definition, which could affect practicality.
 
 <p align="center">
   <img src="imgs/limitations.jpg" align="center" width="85%">

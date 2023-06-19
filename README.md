@@ -28,7 +28,7 @@
 </p>
 
 
-![](github_gifcode.gif)
+![](imgs/github_gifcode.gif)
 
 
 ##  Updates :loudspeaker:

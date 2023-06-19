@@ -28,7 +28,10 @@
 </p>
 
 
-![](imgs/github_gifcode.gif)
+<p align="center">
+  <img src="imgs/github_gifcode.gif" align="center" width="100%">
+</p>
+  <img src="imgs/extra.gif" align="center" width="100%">
 
 
 ##  Updates :loudspeaker:
@@ -58,7 +61,7 @@
 
 ## Pipeline
 
-**CLIP2Protect** comprises two stages. 
+**CLIP2Protect** generates face images that look natural and real. **But here's the special part**: it also ensures a high level of privacy protection. This means you can keep sharing images without worrying about unwanted tracking. It consists of two stages. 
 - **The latent code initialization stage** reconstructs the given face image in the latent space by fine-tuning the generative model.
 - **The text-guided adversarial optimization stage** utilizes user-defined makeup text prompts and identity-preserving regularization to guide the search for adversarial codes within the latent space to effectively protect the facial privacy.
 
@@ -77,4 +80,3 @@ If you're using CLIP2Protect in your research or applications, please cite using
   year={2023}
   }
 ```
-

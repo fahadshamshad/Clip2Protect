@@ -32,6 +32,8 @@
   <img src="imgs/github_gifcode.gif" align="center" width="100%">
 </p>
   <img src="imgs/extra.gif" align="center" width="100%">
+<p align="center">
+  <img src="imgs/github_anim.gif" align="center" width="60%">
 
 
 ##  Updates :loudspeaker:

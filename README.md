@@ -71,6 +71,7 @@
   <img src="docs/static/images/pipeline_color.jpg" align="center" width="95%">
 </p>
 
+## Citation 
 
 If you're using CLIP2Protect in your research or applications, please cite using this BibTeX:
 ```bibtex

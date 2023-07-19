@@ -71,6 +71,36 @@
   <img src="docs/static/images/pipeline_color.jpg" align="center" width="95%">
 </p>
 
+## Intructions for Code usage
+
+### Setup
+
+- **Get code**
+```shell 
+git clone https://github.com/fahadshamshad/Clip2Protect.git
+```
+
+- **Build environment**
+```shell
+cd clip2protect
+# use anaconda to build environment 
+conda create -n clip2protect python=3.8
+conda activate clip2protect
+# install packages
+pip install -r requirements.txt
+```
+
+Here, the code relies on the [Rosinality](https://github.com/rosinality/stylegan2-pytorch/) pytorch implementation of StyleGAN2.
+
+You can manually download the pre-trained StyleGAN2 weights from [here](https://drive.google.com/file/d/1EM87UquaoQmk17Q8d5kYIAHqu0dkYqdT/view?usp=sharing). Placed the weights in 'pretrained_models' folder.
+
+Acquire the latent codes of the face images you want to protect using the encoder4editing (e4e) method available [here](https://github.com/omertov/encoder4editing).
+
+The core functionality of the application is in `main.py`. The generator finetuning and adversarial optimization stages are encapsulated within `pivot_tuning.py` and `adversarial_optimization.py`, respectively.
+
+To download pretrained face recognition models and dataset instructions, including target images, please refer to AMT-GAN page [here](https://github.com/CGCL-codes/AMT-GAN).
+
+
 ## Citation 
 
 If you're using CLIP2Protect in your research or applications, please cite using this BibTeX:

@@ -98,7 +98,7 @@ Acquire the latent codes of the face images you want to protect using the encode
 
 The core functionality of the application is in `main.py`. The generator finetuning and adversarial optimization stages are encapsulated within `pivot_tuning.py` and `adversarial_optimization.py`, respectively.
 
-To download pretrained face recognition models and dataset instructions, including target images, please refer to AMT-GAN page [here](https://github.com/CGCL-codes/AMT-GAN).
+To download pretrained face recognition models and dataset instructions, including target images, please refer to AMT-GAN page [here](https://github.com/CGCL-codes/AMT-GAN). Place the pretrained face recognition model in `models` folder.
 
 
 ## Citation 

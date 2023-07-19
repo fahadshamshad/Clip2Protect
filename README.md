@@ -82,7 +82,7 @@ git clone https://github.com/fahadshamshad/Clip2Protect.git
 
 - **Build environment**
 ```shell
-cd clip2protect
+cd Clip2Protect
 # use anaconda to build environment 
 conda create -n clip2protect python=3.8
 conda activate clip2protect

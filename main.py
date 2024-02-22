@@ -24,7 +24,7 @@ def parse_args():
     parser.add_argument('--makeup_prompt', type=str, default='red lipstick')
     parser.add_argument('--steps', type=int, default=50)
     parser.add_argument('--target_choice', type=str, default='2', help='Choice of target identity, as in AMT-GAN. We use 4 target identities provided by AMT-GAN')
-    parser.add_argument('--model', type=str, default='mobile_face', help = 'facenet','irse50','ir152')
+    parser.add_argument('--model', type=str, default='mobile_face', choices = ['mobile_face', 'facenet','irse50','ir152'])
     parser.add_argument('--impersonate', type=bool, default=True, help = 'For protection during impersonation')
     parser.add_argument('--noise_optimize', type=bool, default=True, help = 'Use noise vectors in StyleGAN during optimization')
     parser.add_argument('--margin', type=int, default=0, help = 'MTCNN margin')
